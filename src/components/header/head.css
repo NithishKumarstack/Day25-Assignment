@@ -1,0 +1,20 @@
+.head{
+    background-color: bisque;
+    margin: 0;
+    width: auto;
+    height: 80px;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}

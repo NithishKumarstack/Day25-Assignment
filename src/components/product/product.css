@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    width: auto;
+}
+
+.left > img{
+   float: left;
+   padding: 10px;
+}
+
+.left{
+    background-color:darkslategrey;
+    border: 3px solid black;
+    color: white;
+    border-radius: 10px;
+    min-height: auto;
+}
+
+.price{
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+
+.select{
+    display: flex;
+    justify-content: end;
+    margin-right: 17%;
+}
+
+.last{
+   display: flex;
+   justify-content: space-around;
+}
+
+.total{
+    padding-left: 28%;
+}
